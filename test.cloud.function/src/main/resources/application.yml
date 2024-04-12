@@ -1,0 +1,7 @@
+server:
+  port: 8080
+
+spring:
+  cloud:
+    function:
+      definition: reverseString # 여기서 reverseString은 애플리케이션에서 정의한 함수의 이름입니다.
